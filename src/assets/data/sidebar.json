@@ -1,0 +1,87 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/Dashboard/index",
+        "icon": "bx bx-home-alt"
+    },
+    {
+        "display_name": "Sales",
+        "route": "/sales/index",
+        "icon": "bx bx-shopping-bag"
+    },
+    {
+        "display_name": "Analytic",
+        "route": "/analytic/index",
+        "icon": "bx bx-chart"
+    },
+    {
+        "display_name": "Acount",
+        "route": "/acount",
+        "icon": "bx bx-user-circle",
+        "childrens":[
+            {
+                "display_name":"Edit Prolife"
+            },
+            {
+                "display_name":"Account Settings"
+            },
+            {
+                "display_name":"Billing"
+            }
+        ]
+    },
+    {
+        "display_name": "Project",
+        "route": "/project",
+        "icon": "bx bx-category",
+        "childrens":[
+            {
+                "display_name":"List"
+            },
+            {
+                "display_name":"Add Project"
+            }
+        ]
+    },
+    {
+        "display_name": "E-Commerce",
+        "route": "/e-commerce",
+        "icon": "bx bx-category",
+        "childrens":[
+            {
+                "display_name":"List Product"
+            },
+            {
+                "display_name":"Add Product"
+            },
+            {
+                "display_name":"Orders"
+            }
+        ]
+    },
+    {
+        "display_name": "Mail",
+        "route": "/mail",
+        "icon": "bx bx-mail-send"
+    },
+    {
+        "display_name": "Chat",
+        "route": "/chat",
+        "icon": "bx bx-chat"
+    },
+    {
+        "display_name": "Calendar",
+        "route": "/calendar",
+        "icon": "bx bxs-calendar"
+    },
+    {
+        "display_name":"Settings",
+        "route":"/route",
+        "icon": "bx bx-cog",
+        "childrens":[
+            {
+                "display_name":"Darkmode"
+            }
+        ]
+    }
+]

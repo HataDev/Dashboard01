@@ -1,0 +1,54 @@
+
+// $font-size-text: 13px;
+$font-weight-text: 500;
+$card-color-text: #048f63;
+$card-color-background: #c0fbdd;
+$card-color-text--red: #dc2626;
+$card-color-background--red: #ffa9a9;
+
+
+.dashboard-title {
+  margin-left: 43px;
+  margin-bottom: 10px;
+}
+
+.dashboard-card {
+  margin-top: 15px;
+  justify-content: space-between;
+
+
+  .tagCard {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    .tagCard-tag {
+      color: $card-color-text;
+      background-color: $card-color-background;
+      border: none;
+      border-radius: 60px;
+      // font-size: $font-size-text;
+      font-weight: $font-weight-text;
+      padding: 3px 8px;
+
+      .anticon svg {
+        color: $card-color-text;
+      }
+    }
+
+    .tagCard-tag--red {
+      color: $card-color-text--red;
+      background-color: $card-color-background--red;
+      border: none;
+      border-radius: 60px;
+      // font-size: $font-size-text;
+      font-weight: $font-weight-text;
+      padding: 3px 8px;
+
+      .anticon svg {
+        color: $card-color-text--red;
+      }
+    }
+  }
+}
+

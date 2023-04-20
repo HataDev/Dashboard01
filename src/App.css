@@ -1,0 +1,11 @@
+.layout {
+  color: var(--txt-color);
+}
+
+.layout_content {
+  padding-left: var(--sidebar-width);
+}
+
+.layout_content-main {
+  padding: 30px;
+}
